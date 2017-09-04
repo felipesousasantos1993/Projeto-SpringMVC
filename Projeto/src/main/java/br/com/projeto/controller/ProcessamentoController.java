@@ -49,7 +49,7 @@ public class ProcessamentoController {
 					}
 				}
 				gerarRegistro(processamento, arquivoRegistro);
-
+				Thread.sleep(60000L);
 				i++;
 			}
 

@@ -46,7 +46,7 @@ public class VendaController implements Serializable {
 			}
 			for (Venda venda : listaNaoProcessado) {
 				processarVenda(venda);
-				Thread.sleep(1000L);
+				Thread.sleep(60000L);
 			}
 
 			return new ResponseEntity<String>("Vendas Processadas com sucesso!", HttpStatus.OK);
